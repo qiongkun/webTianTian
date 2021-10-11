@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+
+    <body>
+        <!-- 顶部导航栏 -->
+        <div id="headNav">
+            <div class="center clearfix">
+                <div class="left">
+                    欢迎来到天天生鲜!
+                </div>
+                <div class="right">
+                    <a href="">登录</a><span>|</span> <a href="">注册</a> <span>|</span><a href="">用户中心</a><span>|</span><a
+                        href="">我的购物车</a><span>|</span><a href="">我的订单</a>
+                </div>
+            </div>
+        </div>
+        <!-- 搜索  商品分类导航栏-->
+        <div id="search">
+            <div class="center">
+                <div class="container">
+                    <h1 class="logo"></h1>
+                    <form action="/search">
+                        <!-- input不能加伪类 -->
+                        <input class="search" type="text" placeholder="搜索商品">
+                        <div class="searchImg"></div>
+                        <input class="searchbtn" type="button" value="搜索">
+                    </form>
+                    <div class="cart">
+                        <a href="">我的购物车
+                            <img src="./image/cart.png" alt="">
+                        </a>
+                        <button>0</button>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="navcommodity">
+                    <h1>全部商品分类</h1>
+                    <ul>
+                        <li><a href="">首页</a><span>|</span></li>
+                        <li><a href="">手机生鲜</a><span>|</span></li>
+                        <li><a href="">抽奖</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- bananer -->
+        <div id="bananer">
+            <div class="center clearfix">
+                <ul class="left">
+                    <li><a class="fruit" href="">新鲜水果</a></li>
+                    <li><a class="seafood" href="">海洋水产</a></li>
+                    <li><a class="meet" href="">猪牛羊肉</a></li>
+                    <li><a class="egg" href="">禽类蛋品</a></li>
+                    <li><a class="vegetables" href="">新鲜蔬菜</a></li>
+                    <li><a class="ice" href="">速冻食品</a></li>
+                </ul>
+                <div class="bananerPic left" id="bannerPic">
+                    <div class="carouseImagCon">
+                        <a style="opacity: 1;" href="#"><img src="./image/rBAAlV5Gia2ARS31AACpB-LsCdE4856717"
+                                alt=""></a>
+                        <a href="#"><img src="./image/rBAAlV5GiaWAVnGfAAC3B-z8J2c7045126" alt=""></a>
+                        <a href="#"><img src="./image/rBAAlV5GiZaAN7tcAAETwXb_pso9087865" alt=""></a>
+                        <a href="#"><img src="./image/rBAAlV5GiYWAPztqAAD0akkXmFo1618513" alt=""></a>
+                    </div>
+                    <!-- <div class="prev"></div>
+                    <div class="next"></div> -->
+                    <!-- <div class="circle">
+                        <span class="active"></span><span></span><span></span><span></span>
+                    </div> -->
+                </div>
+                <div class="advertising right">
+                    <a href=""><img src="./image/rBAAlV5GigSAW6JSAAA2pLUeB605909521" alt=""></a>
+                    <a href=""><img src="./image//rBAAlV5GifqAWb4lAAA98yvCs1I6264950" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- 新鲜水果 -->
+        <div id="newfruits">
+            <div class="center">
+                <div class="nav clearfix">
+                <div class="left">
+                    <h2>新鲜水果</h2>
+                </div>
+                <div class="left">
+                    <span>|</span>
+                    <a href="">盒装草莓</a>
+                    <a href="">柠檬</a>
+                </div>
+                <div class="right">
+                    <a href="">查看更多 ></a>
+                </div>
+            </div>
+                <div class="seasonalfruits">
+                    <img src="./image/fruits/rBAAlV5Gik-AFoPzAAAmv27pX4k7258013" alt="">
+                    <a href="">
+                        <span>草莓 500g</span>
+                        <img src="./image/fruits/rBAAlV5Gi7WAQoP6AAAljHPuXJg3314580" alt="">
+                        <div class="prize">¥ 10.00</div>
+                    </a><a href="">
+                        <span>葡萄</span>
+                        <img src="./image/fruits/rBAAlV5Gi-WAQegzAAAjjiYTEkw1557358" alt="">
+                        <div class="prize">¥ 20.00</div>
+                    </a><a href="">
+                        <span>奇异果</span>
+                        <img src="./image/fruits/rBAAlV5GjAaAQNhcAAAeuLYy0pU0322142" alt="">
+                        <div class="prize">¥ 12.12</div>
+                    </a><a href="">
+                        <span>柠檬</span>
+                        <img src="./image/fruits/rBAAlV5Gi_KAPLkHAAAgnaeGwNQ8809368" alt="">
+                        <div class="prize">¥ 32.00</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 海鲜水产 -->
+        <div id="newfruits">
+            <div class="center">
+                <div class="nav clearfix">
+                <div class="left">
+                    <h2>海鲜水产</h2>
+                </div>
+                <div class="left">
+                    <span>|</span>
+                    <a href="">基围虾</a>
+                    <a href="">扇贝</a>
+                </div>
+                <div class="right">
+                    <a href="">查看更多 ></a>
+                </div>
+            </div>
+                <div class="seasonalfruits">
+                    <img src="./image/Seafood/rBAAlV5GikWAFctxAABHr3RQqFs0434899" alt="">
+                    <a href="">
+                        <span>大青虾</span>
+                        <img src="./image/Seafood/rBAAlV5GjCaAY4I4AAA5OS4Kl4c0856581" alt="">
+                        <div class="prize">¥ 34.00</div>
+                    </a><a href="">
+                        <span>北海道秋刀鱼</span>
+                        <img src="./image/Seafood/rBAAlV5GjDKANf8KAAAkaP_7_181452488" alt="">
+                        <div class="prize">¥ 50.00</div>
+                    </a><a href="">
+                        <span>扇贝</span>
+                        <img src="./image/Seafood/rBAAlV5GjECAP69mAAAk8WCqqmI8211425" alt="">
+                        <div class="prize">¥ 56.60</div>
+                    </a><a href="">
+                        <span>基围虾</span>
+                        <img src="./image/Seafood/rBAAlV5GjFqADj0hAAAk0DN4-yE7103752" alt="">
+                        <div class="prize">¥ 100.90</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 猪牛羊肉 -->
+        <div id="newfruits">
+            <div class="center">
+                <div class="nav clearfix">
+                <div class="left">
+                    <h2>猪牛羊肉</h2>
+                </div>
+                <div class="left">
+                    <span>|</span>
+                    <a href="">鸡肉</a>
+                </div>
+                <div class="right">
+                    <a href="">查看更多 ></a>
+                </div>
+            </div>
+                <div class="seasonalfruits">
+                    <img src="./image/Pbmuttonrou/rBAAlV5GijyAJWkLAAAy1Tlm9So5912756" alt="">
+                    <a href="">
+                        <span>猪肉</span>
+                        <img class="zuImg" src="./image/Pbmuttonrou/rBAAlV5GnomAQq89AADQVMDvqR80681832" alt="">
+                        <div class="prize">¥ 23.99</div>
+                    </a><a href="">
+                        <span>鸡腿</span>
+                        <img class="zuImg" src="./image/Pbmuttonrou/rBAAlV5GmAWANCtEAABKcPkh3W00947067" alt="">
+                        <div class="prize">¥ 45.00</div>
+                    </a><a href="">
+                        <span>羊肉</span>
+                        <img  class="zuImg" src="./image/Pbmuttonrou/rBAAlV5GlzeAQUebAAB4RyoHb2Q0951093" alt="">
+                        <div class="prize">¥ 56.99</div>
+                    </a><a href="">
+                        <span>牛排</span>
+                        <img class="zuImg" src="./image/Pbmuttonrou/rBAAlV5Gl0WAE3B7AALPyGvbwlU8458834" alt="">
+                        <div class="prize">¥ 99.99</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 禽类蛋品 -->
+        <div id="newfruits">
+            <div class="center">
+                <div class="nav clearfix">
+                <div class="left">
+                    <h2>禽类蛋品</h2>
+                </div>
+                <div class="left">
+                    <span>|</span>
+                    <a href="">盒装鸡蛋</a>
+                    <a href="">鸭蛋</a>
+                </div>
+                <div class="right">
+                    <a href="">查看更多 ></a>
+                </div>
+            </div>
+                <div class="seasonalfruits">
+                    <img src="./image/age/rBAAlV5Gii-AGuIqAAAqR4DoSUg6507559" alt="">
+                    <a href="">
+                        <span>盒装鸡蛋</span>
+                        <img class="zuImg" src="./image/age/rBAAlV5Gl72AFJMTAADUhiqBxmM8961108" alt="">
+                        <div class="prize">¥ 23.00</div>
+                    </a><a href="">
+                        <span>鸭蛋</span>
+                        <img class="zuImg" src="./image/age/rBAAlV5Gl_mAR3YpAACFWDqfnIU3338111" alt="">
+                        <div class="prize">¥ 45.00</div>
+                    </a><a href="">
+                        <span>鹌鹑蛋</span>
+                        <img class="zuImg" src="./image/age/rBAAlV5Gm-WAVcFQAAK8H84FYIQ1825816" alt="">
+                        <div class="prize">¥ 39.80</div>
+                    </a><a href="">
+                        <span>鹅蛋</span>
+                        <img class="zuImg" src="./image/age/rBAAlV5GnDOALomPAAJf1mh7x1Y4992431" alt="">
+                        <div class="prize">¥ 49.90</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 新鲜蔬菜 -->
+        <div id="newfruits">
+            <div class="center">
+                <div class="nav clearfix">
+                <div class="left">
+                    <h2>新鲜蔬菜</h2>
+                </div>
+                <div class="left">
+                    <span>|</span>
+                    <a href="">香菜</a>
+                    <a href="">芹菜</a>
+                </div>
+                <div class="right">
+                    <a href="">查看更多 ></a>
+                </div>
+            </div>
+                <div class="seasonalfruits">
+                    <img src="./image/vegetables/rBAAlV5GiiWACb-FAAA-0ZoYkpM7143648" alt="">
+                    <a href="">
+                        <span>白菜</span>
+                        <img class="zuImg" src="./image/vegetables/rBAAlV5GmGmAJ-qfAABajJ6hOr48556614" alt="">
+                        <div class="prize">¥ 4.50</div>
+                    </a><a href="">
+                        <span>芹菜</span>
+                        <img class="zuImg" src="./image/vegetables/rBAAlV5GmRyAXMgZAACfTDkCJSM5428239" alt="">
+                        <div class="prize">¥ 3.50</div>
+                    </a><a href="">
+                        <span>香菜</span>
+                        <img class="zuImg" src="./image/vegetables/rBAAlV5GmW6AUdyjAAIMVju0RpE9003719" alt="">
+                        <div class="prize">¥ 7.90</div>
+                    </a><a href="">
+                        <span>红辣椒</span>
+                        <img class="zuImg" src="./image/vegetables/rBAAlV5GnGKAJ2RzAAC-QOz0_YE0097411" alt="">
+                        <div class="prize">¥ 11.00</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 速冻食品 -->
+        <div id="Seafood">
+            <div class="center">
+                <div class="nav clearfix">
+                <div class="left">
+                    <h2>速冻食品</h2>
+                </div>
+                <div class="left">
+                    <span>|</span>
+                    <a href="">蟹棒</a>
+                    <a href="">速冻水饺</a>
+                </div>
+                <div class="right">
+                    <a href="">查看更多 ></a>
+                </div>
+            </div>
+                <div class="seasonalfruits">
+                    <img src="./image/quilk/rBAAlV5GihmAHqaHAAA3sZPrVzQ2768449" alt="">
+                    <a href="">
+                        <span>草莓 500g</span>
+                        <img class="zuImg" src="./image/quilk/rBAAlV5GmpuAepT1AAEPFCSH9iA0182016" alt="">
+                        <div class="prize">¥ 10.00</div>
+                    </a><a href="">
+                        <span>葡萄</span>
+                        <img class="zuImg" src="./image/quilk/rBAAlV5Gmt6ACUmkAACSEnHvwSU1562833" alt="">
+                        <div class="prize">¥ 20.00</div>
+                    </a><a href="">
+                        <span>奇异果</span>
+                        <img class="zuImg" src="./image/quilk/rBAAlV5GmyyAS-JvAADXHmsQCko6649809" alt="">
+                        <div class="prize">¥ 12.12</div>
+                    </a><a href="">
+                        <span>柠檬</span>
+                        <img class="zuImg" src="./image/quilk/rBAAlV5Gm16AHMxGAAB00nKU7CE6184485" alt="">
+                        <div class="prize">¥ 32.00</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <footer id="footer">
+            <ul>
+                <li><a href="">关于我们</a><span>|</span></li>
+                <li><a href="">联系我们</a><span>|</span></li>
+                <li><a href="">招聘人才</a><span>|</span></li>
+                <li><a href="">友情链接</a><span>|</span></li>
+            </ul>
+            <div class="copy">
+                CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved
+            </div>
+            <div class="phone">
+                电话：010-****888 京ICP备*******8号
+            </div>
+        </footer>
+        <script src="./js/common.js"></script>
+        <script src="./js/banner.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+
+</html>
