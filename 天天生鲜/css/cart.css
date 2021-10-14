@@ -1,0 +1,156 @@
+/* 全部商品 */
+#allpruduct{
+    margin-top: 20px;
+}
+#allpruduct .allsNum{
+    font-size: 16px;
+    color: #ff4200;
+    margin: 0 5px;
+    
+}
+#allpruduct .panel{
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+}
+#allpruduct .panel li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+#allpruduct .total_name{
+    width: 26%;
+}
+#allpruduct .total_name1{
+    width: 16%;
+}
+#allpruduct .total_name2{
+    width: 13%;
+}
+#allpruduct .total_name3{
+    width: 12%;
+}
+#allpruduct .total_name4{
+    width: 15%;
+}
+#allpruduct .total_name5{
+    width: 18%;
+}
+#allpruduct .prom{
+    border: 1px solid #ddd;
+    background-color: #edfff9;
+    margin: 0 auto;
+    margin-top: -1px;
+}
+#allpruduct .prom li{
+    float: left;
+    line-height: 120px;
+    text-align: center;
+}
+#allpruduct .prom .co101{
+    width: 3%;
+}
+#allpruduct .prom .co102{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+#allpruduct .prom .co103{
+    width: 12%;
+}
+#allpruduct .prom .co104{
+    width: 18%;
+}
+#allpruduct .prom .co105{
+    width: 7%;
+}
+#allpruduct .prom .co106{
+    width: 20%;
+}
+#allpruduct .prom .co107{
+    width: 13%;
+}
+#allpruduct .prom .co102 img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    display: block;
+    margin: 10px auto 0;
+}
+#allpruduct .prom .titel{
+    margin-top: 35px;
+    line-height: 20px;
+}
+#allpruduct .prom .addNum{
+    width: 98px;
+    height: 28px;
+    border: 2px solid #ddd;
+    margin: 40px auto 0;
+}
+#allpruduct .prom .addNum input{
+    width: 34px;
+    height: 27px;
+    text-align: center;
+    line-height: 30px;
+    border: 0px;
+    display: block;
+    float: left;
+    outline: none;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+#allpruduct .prom .addNum button{
+    display: block;
+    width: 29px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #f3f3f3;
+    font-size: 14px;
+    color: #666;
+    border: none;
+}
+#allpruduct .prom .addNum .btnd{
+    float: left;
+}
+#allpruduct .prom .addNum .btnd1{
+    float: right;
+}
+#allpruduct .closeprize{
+    width: 1200px;
+    height: 78px;
+    border: 1px solid #ddd;
+    background-color: #fff4e8;
+    margin: -1px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+#allpruduct .closeprize .allcheck{
+    display: flex;
+    width: 5%;
+    height: 78px;
+    justify-content: center;
+    align-items: center;
+}
+#allpruduct .closeprize .allpru{
+    width: 400px;
+    float: left;
+}
+/* #allpruduct .closeprize .allpru .allprize{
+    display: inline-block;
+} */
+#allpruduct .closeprize .allpru .allprize .prize{
+    display: inline-block;
+}
+#allpruduct .closeprize .allpru  .numprud{
+   margin-left: 100px;
+}
+#goclose{
+   display: block;
+   margin-left: 250px;
+   margin-top: -30px;
+}
+em{
+    color: #ff4200;
+    font-size: 14px;
+}

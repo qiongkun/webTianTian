@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/cart.css">
+    </head>
+
+    <body>
+        <!-- 顶部导航栏 -->
+        <div id="headNav">
+            <div class="center clearfix">
+                <div class="left">
+                    欢迎来到天天生鲜!
+                </div>
+                <div class="right">
+                    <a href="">登录</a><span>|</span> <a href="">注册</a> <span>|</span><a href="">用户中心</a><span>|</span><a
+                        href="">我的购物车</a><span>|</span><a href="">我的订单</a>
+                </div>
+            </div>
+        </div>
+        <!-- 搜索  商品分类导航栏-->
+        <div id="search" style="border-bottom: none;">
+            <div class="center">
+                <div class="container">
+                    <h1 class="logo"></h1>
+                    <form action="/search">
+                        <!-- input不能加伪类 -->
+                        <input class="search" type="text" placeholder="搜索商品">
+                        <div class="searchImg"></div>
+                        <input class="searchbtn" type="button" value="搜索">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- 全部商品 -->
+        <div id="allpruduct">
+            <div class="center">
+                <div class="total_count">
+                    全部商品
+                    <em class="btnnum">1</em>
+                    件
+                </div>
+                <div class="list_total">
+                    <ul class="panel clearfix">
+                        <li class="total_name">商品名称</li>
+                        <li class="total_name1">商品单位</li>
+                        <li class="total_name2">商品价格</li>
+                        <li class="total_name3">数量</li>
+                        <li class="total_name4">小计</li>
+                        <li class="total_name5">操作</li>
+                    </ul>
+                    <ul class="prom clearfix">
+                        <!-- <li class="co101"><input type="checkbox" name="" id=""></li>
+                        <li class="co102"><img src="./image/fruits/rBAAlV5Gi-WAQegzAAAjjiYTEkw1557358" alt="">
+                            <div class="titel">
+                                <span>羊肉</span>
+                                <p>56.99元/500g</p>
+                            </div>
+                        </li>
+                        <li class="co103"><span>500g</span></li>
+                        <li class="co104"><span>56.99元</span></li>
+                        <li class="co105 clearfix">
+                            <div class="addNum">
+
+                                <button class="btnd">-</button>
+                                <input type="text" value="1">
+                                <button class="btnd1">+</button>
+
+                            </div>
+                        </li>
+                        <li class="co106"><span>113.98元</span></li>
+                        <li class="co107"><a href="">删除</a></li> -->
+                    </ul>
+                    <div class="closeprize">
+                        <div class="allcheck">
+                            <input class="allbox" type="checkbox" name="" id="" onclick="inputAll()">
+                            全选
+                        </div>
+                        <div class="allpru">
+                            <div class="allprize">
+                                合计(不含运费)：<div class="prize rmb">
+                                    <em>¥</em> 0
+                                </div>
+                            </div><br>
+                            <div class="numprud">
+                                共计<span>2</span>件商品
+                            </div>
+                            <button id="goclose">去结算</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- 底部 -->
+          <footer id="footer">
+            <ul>
+                <li><a href="">关于我们</a><span>|</span></li>
+                <li><a href="">联系我们</a><span>|</span></li>
+                <li><a href="">招聘人才</a><span>|</span></li>
+                <li><a href="">友情链接</a><span>|</span></li>
+            </ul>
+            <div class="copy">
+                CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved
+            </div>
+            <div class="phone">
+                电话：010-****888 京ICP备*******8号
+            </div>
+        </footer>
+        <script src="./js/common.js"></script>
+        <script src="./js/cart.js"></script>
+    </body>
+
+</html>
